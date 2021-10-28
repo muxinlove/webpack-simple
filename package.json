@@ -1,0 +1,21 @@
+{
+  "name": "webpack-simple",
+  "version": "1.0.0",
+  "description": "webpack-simple",
+  "main": "bundle.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/parser": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/traverse": "^7.15.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node bundle.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
